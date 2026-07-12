@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface scroll-smooth overflow-x-hidden font-body-md;
+  }
+}
+
+/* Hide scrollbar globally for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar globally for IE, Edge and Firefox */
+html, body {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+@layer utilities {
+  .architectural-grid {
+    background-image: linear-gradient(rgba(31, 41, 55, 0.1) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(31, 41, 55, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .primary-gradient-glow {
+    background: radial-gradient(circle at 50% 50%, rgba(239, 68, 68, 0.15), transparent 70%);
+  }
+
+  .noise-texture {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    pointer-events: none;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #0c141f;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #ef4444;
+    border-radius: 2px;
+  }
+}

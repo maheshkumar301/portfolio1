@@ -1,0 +1,339 @@
+{
+    "personalInfo": {
+        "name": "Maheshkumar S",
+        "role": [
+            "Software Engineer",
+            "Full Stack Developer",
+            "Mobile App Developer"
+        ],
+        "experience": "2.5+ Years",
+        "email": "maheshkumar30102@gmail.com",
+        "phone": "9585233804",
+        "location": "Tiruvannamalai",
+        "github": "https://github.com/maheshkumar301",
+        "linkedin": "https://linkedin.com/in/maheshkumar-s-5722a31b7",
+        "about": "Software Engineer with 2.5+ years of experience developing web, mobile, and desktop applications using Angular, React.js, Flutter, Python, Django, Ionic, and Electron.js. Experienced in building RESTful APIs, working with PostgreSQL, integrating HL7 standards, and developing responsive user interfaces with Tailwind CSS. Passionate about solving real-world problems by transforming ideas into scalable digital solutions."
+    },
+    "skills": {
+        "frontend": [
+            {
+                "name": "Angular",
+                "level": 90
+            },
+            {
+                "name": "React.js",
+                "level": 85
+            },
+            {
+                "name": "TypeScript",
+                "level": 85
+            },
+            {
+                "name": "JavaScript",
+                "level": 90
+            },
+            {
+                "name": "HTML5 & CSS3",
+                "level": 95
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": 95
+            },
+            {
+                "name": "Bootstrap 5",
+                "level": 85
+            }
+        ],
+        "backend": [
+            {
+                "name": "Python",
+                "level": 80
+            },
+            {
+                "name": "Django",
+                "level": 85
+            },
+            {
+                "name": "Django REST Framework",
+                "level": 85
+            },
+            {
+                "name": "RESTful APIs",
+                "level": 90
+            }
+        ],
+        "mobile": [
+            {
+                "name": "Flutter",
+                "level": 90
+            },
+            {
+                "name": "Ionic",
+                "level": 80
+            }
+        ],
+        "desktop": [
+            {
+                "name": "Electron.js",
+                "level": 75
+            }
+        ],
+        "database": [
+            {
+                "name": "PostgreSQL",
+                "level": 85
+            },
+            {
+                "name": "MySQL",
+                "level": 75
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git & GitHub",
+                "level": 90
+            },
+            {
+                "name": "Postman",
+                "level": 95
+            },
+            {
+                "name": "VS Code",
+                "level": 95
+            },
+            {
+                "name": "Android Studio",
+                "level": 85
+            }
+        ],
+        "deployment": [
+            {
+                "name": "Docker",
+                "level": 75
+            },
+            {
+                "name": "Nginx & Gunicorn",
+                "level": 75
+            },
+            {
+                "name": "Linux",
+                "level": 80
+            },
+            {
+                "name": "Google Play Store Deployment",
+                "level": 85
+            }
+        ],
+        "domain": [
+            {
+                "name": "Website Development",
+                "level": 90
+            },
+            {
+                "name": "Mobile App Development",
+                "level": 90
+            },
+            {
+                "name": "Desktop Software",
+                "level": 85
+            },
+            {
+                "name": "Backend Architecture",
+                "level": 90
+            }
+        ]
+    },
+    "experiences": [
+        {
+            "id": 1,
+            "company": "MyFluiditi Software Solutions",
+            "role": "Software Engineer",
+            "period": "06/2026 – Present",
+            "location": "Chennai",
+            "projects": [
+                "Medical Billing",
+                "Claims Management",
+                "Payment Processing",
+                "Provider Management",
+                "Django REST Framework"
+            ],
+            "description": "Developed modules for Medical Billing, Claims Management, Payment Processing, and Provider Management. Designed and integrated secure RESTful APIs using Django REST Framework to support healthcare data exchange and business workflows."
+        },
+        {
+            "id": 2,
+            "company": "Yangoos Technologies",
+            "role": "Software Engineer",
+            "period": "01/2024 – 05/2026",
+            "location": "Chennai",
+            "projects": [
+                "POS & KOT",
+                "Betting Management",
+                "Shipment Tracking",
+                "Healthcare Automation",
+                "Job Portal"
+            ],
+            "description": "Developed POS and Kitchen Order Ticket (KOT) applications using Angular, Ionic, and Electron.js. Built Betting Management modules and dashboards with Angular. Developed Import and Export Shipment Tracking applications. Contributed to Medical Billing and Healthcare Automation solutions using React.js, Flutter, Python, Django, and PostgreSQL."
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Medical Billing & Healthcare Automation",
+            "tech": [
+                "React.js",
+                "Flutter",
+                "Python",
+                "Django",
+                "PostgreSQL"
+            ],
+            "description": "Developed a healthcare management platform featuring patient management, appointment scheduling, billing, claims processing, payment management, HL7 integration, and RESTful APIs using Django.",
+            "category": "Web"
+        },
+        {
+            "id": 2,
+            "title": "Offline POS System",
+            "tech": [
+                "Angular",
+                "Ionic",
+                "Electron.js"
+            ],
+            "description": "Developed an offline Point of Sale (POS) application with billing, Kitchen Order Ticket (KOT) management, offline sales synchronization, and local file-based data storage using Electron.js.",
+            "category": "Desktop"
+        },
+        {
+            "id": 3,
+            "title": "Shipment Tracking System",
+            "tech": [
+                "React.js",
+                "Flutter"
+            ],
+            "description": "Developed web and mobile applications for import and export shipment tracking with real-time logistics monitoring.",
+            "category": "Mobile"
+        },
+        {
+            "id": 4,
+            "title": "Betting Platform",
+            "tech": [
+                "Angular",
+                "REST API"
+            ],
+            "description": "Developed an Angular-based dashboard with authentication, authorization, user management, and REST API integration.",
+            "category": "Web"
+        },
+        {
+            "id": 5,
+            "title": "Resume Builder App",
+            "tech": [
+                "Flutter"
+            ],
+            "description": "Developed a Flutter application that enables users to create, edit, preview, and export professional resumes using customizable templates.",
+            "category": "Mobile"
+        },
+        {
+            "id": 6,
+            "title": "Vault Manager",
+            "tech": [
+                "Flutter"
+            ],
+            "description": "Developed a secure password and document management application with encrypted local storage and privacy-focused security features.",
+            "category": "Mobile"
+        },
+        {
+            "id": 7,
+            "title": "Auto Scroll App",
+            "tech": [
+                "Flutter"
+            ],
+            "description": "Developed an application that automatically scrolls screen content with adjustable speed for hands-free reading, presentations, and accessibility.",
+            "category": "Mobile"
+        },
+        {
+            "id": 8,
+            "title": "Job Portal",
+            "tech": [
+                "Flutter",
+                "REST API"
+            ],
+            "description": "Developed a Flutter-based job portal application featuring job search, advanced filters, profile management, job applications, and REST API integration.",
+            "category": "Mobile"
+        },
+        {
+            "id": 9,
+            "title": "Gas Leakage Monitoring System",
+            "tech": [
+                "Embedded Systems",
+                "IoT"
+            ],
+            "description": "Designed an IoT-based gas leakage monitoring system to help prevent industrial accidents caused by flammable gas leaks. The project was developed under IBM mentorship.",
+            "category": "Other"
+        },
+        {
+            "id": 10,
+            "title": "Gesture Translator Using Smart Gloves",
+            "tech": [
+                "Flex Sensors",
+                "GSM Module"
+            ],
+            "description": "Developed a smart glove system that translates hand gestures into text messages using flex sensors and GSM communication.",
+            "category": "Other"
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "institution": "University College of Engineering Kanchipuram",
+            "degree": "Bachelor of Engineering (B.E.)",
+            "field": "Electronics and Communication Engineering",
+            "period": "06/2019 – 06/2023",
+            "details": "CGPA: 8.47/10"
+        },
+        {
+            "id": 2,
+            "institution": "Dhivya Matric Higher Secondary School",
+            "degree": "Higher Secondary Certificate (HSC)",
+            "field": "State Board",
+            "period": "2018 – 2019",
+            "details": "87.6%"
+        },
+        {
+            "id": 3,
+            "institution": "Annai Renugambal Matric Higher Secondary School",
+            "degree": "Secondary School Leaving Certificate (SSLC)",
+            "field": "State Board",
+            "period": "2016 – 2017",
+            "details": "93.4%"
+        }
+    ],
+    "certifications": [
+        {
+            "id": 1,
+            "name": "Python Programming",
+            "issuer": "Edu Ex",
+            "date": "2023"
+        },
+        {
+            "id": 2,
+            "name": "Responsive Web Design",
+            "issuer": "FreeCodeCamp",
+            "date": "2023"
+        },
+        {
+            "id": 3,
+            "name": "Mission Amrit Sarovar Internship",
+            "issuer": "Water Bodies Rejuvenation Initiative",
+            "date": "2022"
+        },
+        {
+            "id": 4,
+            "name": "National Service Scheme (NSS)",
+            "issuer": "University NSS Chapter",
+            "date": "2022"
+        }
+    ],
+    "achievements": [
+        "Secured 1st place in the Technical Quiz competition at college.",
+        "Scored 60.2% in the TCS National Qualifier Test (TCS NQT).",
+        "Served as Class Representative during the 2022–2023 academic year."
+    ]
+}
