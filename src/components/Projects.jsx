@@ -127,8 +127,8 @@ function Projects({ projects }) {
   };
 
   return (
-    <section className="py-section-gap px-margin-desktop" id="projects">
-      <div className="text-center mb-16">
+    <section className="py-section-gap px-margin-mobile md:px-margin-desktop" id="projects">
+      <div className="max-w-[1400px] mx-auto text-center mb-16">
         <span className="font-code-label text-code-label text-system-red uppercase mb-2 block">Repository</span>
         <h2 className="font-headline-lg text-headline-lg text-on-surface">Featured Deployments</h2>
       </div>

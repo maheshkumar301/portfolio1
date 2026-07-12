@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Experience({ experiences }) {
   return (
-    <section className="py-section-gap px-margin-desktop bg-surface-container-lowest" id="experience">
+    <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest" id="experience">
       <div className="max-w-4xl mx-auto">
         <div className="mb-16 text-center">
           <span className="font-code-label text-code-label text-system-red uppercase mb-2 block">Timeline</span>

@@ -15,7 +15,7 @@ function Hero({ data }) {
   };
 
   return (
-    <section className="min-h-screen flex items-center pt-24 px-margin-desktop relative overflow-hidden" id="hero">
+    <section className="min-h-screen flex items-center pt-24 px-margin-mobile md:px-margin-desktop relative overflow-hidden" id="hero">
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[80%] opacity-20 primary-gradient-glow blur-[100px] pointer-events-none"></div>
 
       <div className="grid grid-cols-12 gap-gutter w-full items-center">

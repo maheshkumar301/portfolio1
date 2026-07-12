@@ -48,7 +48,7 @@ function About({ personal, domain }) {
   const expValue = parseFloat(personal.experience) || 2.5;
 
   return (
-    <section className="py-section-gap px-margin-desktop bg-surface-container-lowest" id="about">
+    <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest" id="about">
       <div className="grid grid-cols-12 gap-gutter">
         <motion.div 
           className="col-span-12 md:col-span-4 border-l border-system-red pl-8 mb-12 md:mb-0"

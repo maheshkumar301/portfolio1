@@ -32,7 +32,7 @@ function Contact({ data }) {
 
   return (
     <>
-      <section className="py-section-gap px-margin-desktop bg-surface-container-lowest relative" id="contact">
+      <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest relative" id="contact">
         <div className="absolute inset-0 primary-gradient-glow opacity-5 pointer-events-none"></div>
         <div className="grid grid-cols-12 gap-gutter relative z-10">
           <div className="col-span-12 md:col-span-5 flex flex-col justify-center">
@@ -127,7 +127,7 @@ function Contact({ data }) {
         </div>
       </section>
 
-      <footer className="w-full bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center px-margin-desktop py-base gap-gutter">
+      <footer className="w-full bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-base gap-gutter">
         <div className="font-headline-md text-headline-md text-primary uppercase">{data.name}</div>
         <p className="font-code-label text-code-label text-on-surface-variant uppercase opacity-80">© {new Date().getFullYear()} {data.name}. ALL RIGHTS RESERVED.</p>
         <div className="flex gap-8 mt-4 md:mt-0">

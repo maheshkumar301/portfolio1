@@ -21,7 +21,7 @@ function Skills({ skills }) {
   };
 
   return (
-    <section className="py-12 md:py-16 px-margin-desktop bg-background border-t border-outline-variant/30" id="skills">
+    <section className="py-12 md:py-16 px-margin-mobile md:px-margin-desktop bg-background border-t border-outline-variant/30" id="skills">
       <div className="max-w-[1400px] mx-auto">
         <div className="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
